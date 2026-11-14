@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Nebula glass theme",
+    "description": "Reskins the Web client in both Light and Dark appearance: deep-space indigo or frost glass surfaces, periwinkle text, and cyan accents, plus an original generated nebula wallpaper behind the app. Light, Dark, and System in Settings → Appearance keep working live; disable the bundle to restore the stock palette and background."
+  }
+}

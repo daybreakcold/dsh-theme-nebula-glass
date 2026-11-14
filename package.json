@@ -1,0 +1,56 @@
+{
+  "name": "dsh-theme-nebula-glass",
+  "version": "1.2.0",
+  "description": "Dual-palette theme for the DeepSeek Harness Web client: indigo dark and frost light palettes with an original generated nebula wallpaper.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "harness",
+    "theme",
+    "dark",
+    "light",
+    "wallpaper",
+    "nebula"
+  ],
+  "engines": {
+    "dsh": ">=0.2.2-rc.3 <0.3.0-0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daybreakcold/dsh-theme-nebula-glass.git"
+  },
+  "homepage": "https://github.com/daybreakcold/dsh-theme-nebula-glass#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme"
+      ]
+    }
+  }
+}

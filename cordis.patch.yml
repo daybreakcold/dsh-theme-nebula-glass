@@ -1,0 +1,5 @@
+# Nebula Glass theme bundle: inserts the plugin row whose Client half applies
+# the theme tokens and the generated nebula wallpaper.
+- insert:
+    - id: nebula-glass-theme
+      name: 'dsh-theme-nebula-glass'
